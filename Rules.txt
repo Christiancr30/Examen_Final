@@ -1,0 +1,24 @@
+-- COLORES --
+
+Primary Color 
+#69B99D   Boton principal
+
+Titulo
+#89C5CC    Titulo hero section
+
+Titulo
+#000000     Titulo / texto
+
+Texto
+#7D7987     Texto navegacion / descripciones
+
+
+-- BOTONES/LINKS --
+-nav links = 18px / tipografia Mulish
+-btn-primary = 16px / tipografia DM sans
+
+
+-- TIPOGRAFIA () --
+H1 = 48px       titulo / Mulish
+p = 16px        parrafo hero / open sans
+p2 = 14px       parrafo footer
