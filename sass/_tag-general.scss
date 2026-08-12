@@ -1,4 +1,8 @@
 // AJUSTES PARA LOS BOTONES Y LINK
+body{
+    font-family: $font;
+}
+
 button{
     cursor: pointer;
     border: none;

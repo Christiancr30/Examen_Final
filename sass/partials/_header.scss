@@ -1,0 +1,23 @@
+// HEADER / NAV
+
+header {
+    padding: 32px $container-padding;
+}
+
+nav {
+    max-width: $container-max;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 28px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
