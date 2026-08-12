@@ -1,0 +1,39 @@
+// HERO SECTION
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: 22.4px $container-padding 45.4px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 560px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: $color-black;
+    text-transform: uppercase;
+}
+
+span {
+    color: $color-secondary;
+}
+
+p {
+    font-size: 16px;
+    color: $color-grey;
+}
+
+.hero-image img {
+    width: 520px;
+    width: 100%;
+    height: auto;
+}
