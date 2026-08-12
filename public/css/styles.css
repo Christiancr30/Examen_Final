@@ -441,7 +441,7 @@ footer {
   align-items: center;
   justify-content: center;
   min-height: 110px;
-  padding: 32px 120px;
+  padding: 32px 120px 0;
 }
 
 .footer-brand p {
@@ -461,6 +461,58 @@ footer {
   right: 0;
   width: 140px;
   height: auto;
+}
+
+@media only screen and (max-width: 1023px) {
+  .nav-links {
+    gap: 24px;
+    font-size: 16px;
+  }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+  .hero-content {
+    align-items: center;
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .hero-image img {
+    max-width: 360px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header {
+    padding-top: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .nav-links {
+    gap: 20px;
+    font-size: 14px;
+  }
+  .hero {
+    gap: 24px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .btn-primary {
+    width: 100%;
+  }
+  .footer-brand p {
+    font-size: 12px;
+  }
+  .footer-decoration {
+    width: 50px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
